@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { UseState } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import {GithubIcon, LinkedInIcon, FacebookIcon, SunIcon, MoonIcon } from './Icons'
@@ -37,7 +37,7 @@ const CustomMobileLink = ({href, title, className='', toggle}) => {
 const navbar = () => {
 
     const [mode, setMode] = UseThemeSwitcher();
-    const [isOpen, setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = UseState(false);
 
     const handleClick = () =>{
         setIsOpen(!isOpen)

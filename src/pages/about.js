@@ -48,7 +48,7 @@ const about = () => {
                     <div className='col-span-3 flex flex-col items-start justify-start dark:text-light xl:col-span-4 md:order-2 md:col-span-8'>
                         <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>Biography</h2>
                         <p className='text-lg'>
-                        Hello! I'm <b>Ezekiel Flores</b>, A Web developer with expertise in building web applications that are user-friendly, responsive, and scalable. 
+                        Hello! Im <b>Ezekiel Flores</b>, A Web developer with expertise in building web applications that are user-friendly, responsive, and scalable. 
                         Proficient in both front-end and back-end technologies such as HTML, CSS, JavaScript, Java, PHP and MySQL. 
                         and constantly learning and keeping up-to-date with the latest technologies and best practices in the industry.
                         </p>
@@ -57,8 +57,8 @@ const about = () => {
                         By carefully crafting each element and paying attention to details, I strive to create websites that engage and captivate visitors.
                         </p>
                         <p className='text-lg'>
-                        Feel free to explore my portfolio, where you'll find examples of my work that highlight my skills and creativity. 
-                        If you have any questions or would like to discuss a potential project, please don't hesitate to get in touch. I look forward to creating exceptional web experiences together!
+                        Feel free to explore my portfolio, where you will find examples of my work that highlight my skills and creativity. 
+                        If you have any questions or would like to discuss a potential project, please do not hesitate to get in touch. I look forward to creating exceptional web experiences together!
                         </p>
                     </div>
                     <div className='col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8'>
