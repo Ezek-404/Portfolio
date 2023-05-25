@@ -1,7 +1,7 @@
 import '@/styles/globals.css'
 import { Montserrat } from 'next/font/google'
 import Head  from 'next/head'
-import NavBar from '@/components/NavBar' 
+import navbar from '@/components/NavBar' 
 import Footer from '@/components/Footer'
 import { AnimatePresence } from 'framer-motion'
 import { useRouter } from 'next/router'
@@ -17,7 +17,7 @@ export default function App({ Component, pageProps }) {
          <meta name="viewport" content="width=device-width, initial-scale=1" />
     </Head>
     <main className={`${montserrat.variable} font-mont bg-light dark:bg-dark w-full min-h-screen`}>
-      <NavBar />
+      <navbar />
       <AnimatePresence mode='wait'>
         <Component key={router.asPath} {...pageProps} />
       </AnimatePresence>

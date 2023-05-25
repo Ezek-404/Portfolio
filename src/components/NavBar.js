@@ -1,6 +1,6 @@
-import { UseState } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
+import UseState from 'react'
 import {GithubIcon, LinkedInIcon, FacebookIcon, SunIcon, MoonIcon } from './Icons'
 import {motion} from 'framer-motion'
 import UseThemeSwitcher from './hooks/useThemeSwitcher'
@@ -37,7 +37,7 @@ const CustomMobileLink = ({href, title, className='', toggle}) => {
 const navbar = () => {
 
     const [mode, setMode] = UseThemeSwitcher();
-    const [isOpen, setIsOpen] = UseState(false);
+    const [isOpen, setIsOpen] = UseState(false); //eslint-disable-line no-debugger
 
     const handleClick = () =>{
         setIsOpen(!isOpen)
