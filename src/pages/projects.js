@@ -6,7 +6,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import {motion} from 'framer-motion'
-import project1 from '../../public/images/projects/Capstone.jpg'
+import project1 from '../../public/images/projects/capstone.jpg'
 import TransitionEffect from '@/components/TransitionEffect'
 
 const FramerImage = motion(Image)
